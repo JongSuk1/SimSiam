@@ -14,3 +14,10 @@ Data augmentation and hyperparameter setting in the Pretrain stage and linear cl
 |--|--|--|--|--|
 | Train Acc. | 71.54 |  |  |  |
 | Valid Acc. | 67.55 |  |  |  |
+
+The execution command for pretrain is contained in **train.sh**, and the command for linear classification is contained in **train_cls.sh**. Set the data path after downloading the docker environment, it can be executed as follows.
+```bash
+> sh train.sh
+
+> sh train_cls.sh
+```
